@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.add-block {
+    border-right: 2px solid grey;
+    padding: 1cm;
+    display: flex;
+    flex-direction: column;
+}
+
+#items li{
+    display: inline;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 400px;
+    margin-right: 40px;
+    font: 1.2em sans-serif;
+}
+
+#done li{
+    display: inline;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 5px 0;
+    margin-right: 40px;
+    width: 400px;
+    font: 1.2em sans-serif;
+}
+
+
+li input {
+    margin: 1cm;
+}
+
+.xbutton {
+    margin: 1cm;
+}
+
+#items {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#items::-webkit-scrollbar{
+    display: none;
+}
+
+#done {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+.line {
+    width: 250px;
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+
+.xbutton {
+    float: right;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#new-item {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+#items button {
+    background: none;
+    border: none;
+    color: orange;
+    font-size: 1.1em;
+}
+
+#items button:hover {
+    color: orangered;
+}
+
+#done button {
+    background: none;
+    border: none;
+    color: green;
+    font-size: 1.1em;
+}
+
+#done button:hover {
+    color: darkgreen;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: gray;
+}
+
+#submit {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+
+#submit:hover {
+    background-color: gray;
+}
