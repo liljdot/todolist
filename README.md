@@ -1,3 +1,3 @@
 # todolist
-simple todolist webbapp
+A simple todolist webbapp
 check it out https://codepen.io/liljdot/pen/qBypOmN
